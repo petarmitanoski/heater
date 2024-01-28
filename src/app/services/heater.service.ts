@@ -17,8 +17,8 @@ export class HeaterService {
     {
       title: "Room 1",
       minimumTemp: 0,
-      maximumTemp: 0,
-      targetTemp: 0,
+      maximumTemp: 50,
+      targetTemp: 20,
     },
     {
       title: "Room 2",
