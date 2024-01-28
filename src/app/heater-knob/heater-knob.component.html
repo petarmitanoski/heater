@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="item title-label">{{ title }}</div>
+    <div class="circular-control item circle">
+        <div class="pointer" [ngStyle]="{'transform': pointerTransform}"></div>
+        <div class="notch left-notch"></div>
+        <div class="notch right-notch"></div>
+    </div>
+    <div class="item temp-label">{{ targetValue }} °C</div>
+</div>

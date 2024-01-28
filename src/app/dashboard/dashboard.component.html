@@ -1,0 +1,9 @@
+@for (heater of heaters$ | async; track heater.id) {
+    <heater-knob [title]="heater.title"
+                 [minimumValue]="heater.minimumTemp"
+                 [maximumValue]="heater.maximumTemp"
+                 [targetValue]="heater.targetTemp">
+    </heater-knob>
+  } @empty {
+    No heaters registered
+  }
